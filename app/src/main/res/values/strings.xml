@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">zanproxy-android</string>
+    <string name="start_proxy">start_proxy</string>
+</resources>
