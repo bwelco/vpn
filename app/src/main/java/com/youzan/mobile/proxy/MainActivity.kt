@@ -27,6 +27,10 @@ class MainActivity : AppCompatActivity() {
                 startActivityForResult(intent, REQUEST_CONNECT)
             }
         }
+
+        findViewById<Button>(R.id.stop_proxy).setOnClickListener {
+            stopProxy()
+        }
     }
 
     fun startProxy() {
@@ -35,10 +39,16 @@ class MainActivity : AppCompatActivity() {
         ContextCompat.startForegroundService(this, intent)
     }
 
+
+    fun stopProxy() {
+        val intent = Intent(this, ProxyService::class.java)
+        intent.putExtra(ProxyService.COMMAND, ProxyService.STOP_COMMAND)
+        ContextCompat.startForegroundService(this, intent)
+    }
+
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         if (resultCode == Activity.RESULT_OK && requestCode == REQUEST_CONNECT) {
             startProxy()
         }
-
     }
 }

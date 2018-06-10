@@ -1,0 +1,101 @@
+{
+  "buildFiles": [
+    "/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Android.mk",
+    "/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/Users/bwelco/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/lib clean"
+  ],
+  "libraries": {
+    "ancillary-debug-x86": {
+      "artifactName": "ancillary",
+      "buildCommand": "/Users/bwelco/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/lib -j8 /Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libancillary.a",
+      "abi": "x86",
+      "output": "/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libancillary.a"
+    },
+    "ss-tunnel-debug-x86": {
+      "artifactName": "ss-tunnel",
+      "buildCommand": "/Users/bwelco/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/lib -j8 /Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libss-tunnel.so",
+      "abi": "x86",
+      "output": "/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libss-tunnel.so"
+    },
+    "pcre-debug-x86": {
+      "artifactName": "pcre",
+      "buildCommand": "/Users/bwelco/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/lib -j8 /Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libpcre.a",
+      "abi": "x86",
+      "output": "/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libpcre.a"
+    },
+    "ev-debug-x86": {
+      "artifactName": "ev",
+      "buildCommand": "/Users/bwelco/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/lib -j8 /Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libev.a",
+      "abi": "x86",
+      "output": "/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libev.a"
+    },
+    "mbedtls-debug-x86": {
+      "artifactName": "mbedtls",
+      "buildCommand": "/Users/bwelco/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/lib -j8 /Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libmbedtls.a",
+      "abi": "x86",
+      "output": "/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libmbedtls.a"
+    },
+    "sodium-debug-x86": {
+      "artifactName": "sodium",
+      "buildCommand": "/Users/bwelco/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/lib -j8 /Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libsodium.a",
+      "abi": "x86",
+      "output": "/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libsodium.a"
+    },
+    "ipset-debug-x86": {
+      "artifactName": "ipset",
+      "buildCommand": "/Users/bwelco/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/lib -j8 /Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libipset.a",
+      "abi": "x86",
+      "output": "/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libipset.a"
+    },
+    "cpufeatures-debug-x86": {
+      "artifactName": "cpufeatures",
+      "buildCommand": "/Users/bwelco/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/lib -j8 /Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libcpufeatures.a",
+      "abi": "x86",
+      "output": "/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libcpufeatures.a"
+    },
+    "event-debug-x86": {
+      "artifactName": "event",
+      "buildCommand": "/Users/bwelco/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/lib -j8 /Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libevent.a",
+      "abi": "x86",
+      "output": "/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libevent.a"
+    },
+    "jni-helper-debug-x86": {
+      "artifactName": "jni-helper",
+      "buildCommand": "/Users/bwelco/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/lib -j8 /Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libjni-helper.so",
+      "abi": "x86",
+      "output": "/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libjni-helper.so"
+    },
+    "redsocks-debug-x86": {
+      "artifactName": "redsocks",
+      "buildCommand": "/Users/bwelco/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/lib -j8 /Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libredsocks.so",
+      "abi": "x86",
+      "output": "/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libredsocks.so"
+    },
+    "cork-debug-x86": {
+      "artifactName": "cork",
+      "buildCommand": "/Users/bwelco/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/lib -j8 /Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libcork.a",
+      "abi": "x86",
+      "output": "/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libcork.a"
+    },
+    "tun2socks-debug-x86": {
+      "artifactName": "tun2socks",
+      "buildCommand": "/Users/bwelco/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/lib -j8 /Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libtun2socks.so",
+      "abi": "x86",
+      "output": "/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libtun2socks.so"
+    },
+    "bloom-debug-x86": {
+      "artifactName": "bloom",
+      "buildCommand": "/Users/bwelco/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/lib -j8 /Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libbloom.a",
+      "abi": "x86",
+      "output": "/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libbloom.a"
+    },
+    "ss-local-debug-x86": {
+      "artifactName": "ss-local",
+      "buildCommand": "/Users/bwelco/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/bwelco/AndroidProjects/vpn/app/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/lib -j8 /Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libss-local.so",
+      "abi": "x86",
+      "output": "/Users/bwelco/AndroidProjects/vpn/app/build/intermediates/ndkBuild/debug/obj/local/x86/libss-local.so"
+    }
+  }
+}
