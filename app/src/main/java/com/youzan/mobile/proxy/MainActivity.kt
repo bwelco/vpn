@@ -12,7 +12,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     companion object {
-        const val REQUEST_CONNECT = 1
+        const val REQUEST_CONNECT = 2
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
